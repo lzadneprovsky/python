@@ -10,11 +10,13 @@ Before running the scripts, ensure you have the following prerequisites installe
 - ccxt library
 - pandas
 - matplotlib
+- time
+- tqdm
 
 You can install the required Python packages using the following command:
 
 ```bash
-pip install ccxt pandas matplotlib
+pip install ccxt pandas matplotlib time tqdm
 ```
 ## Configuration
 
@@ -27,7 +29,7 @@ secret_key = YOUR_BINANCE_SECRET_KEY
 ```
 ## Usage
 
-Run the script BTCUSDT_Spread_2023.ipynb in Jupyter Notebook to fetch historical OHLCV data, calculate the spread and generate visualizations.
+Run the script BTCUSDT_Spread_2023_v2.ipynb in Jupyter Notebook to fetch historical OHLCV data, calculate the spread and generate visualizations.
 
 ## Output
 
